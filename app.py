@@ -7,7 +7,6 @@ import re
 from pathlib import Path
 
 
-
 # Import fast.ai Library
 from fastai import *
 from fastai.vision import *
@@ -25,19 +24,14 @@ path = Path("models")
 learn = load_learner(path)
 
 
-
-
 def model_predict(img_path):
     """
        model_predict will return the preprocessed image
     """
-   
+
     img = open_image(img_path)
-    pred_class,pred_idx,outputs = learn.predict(img)
+    pred_class, pred_idx, outputs = learn.predict(img)
     return str(pred_class)
-    
-
-
 
 
 @app.route('/', methods=['GET'])
@@ -65,7 +59,4 @@ def upload():
 
 
 if __name__ == '__main__':
-    
     app.run()
-
-
