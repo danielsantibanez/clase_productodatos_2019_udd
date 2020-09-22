@@ -1,5 +1,5 @@
 
-# Laboratorio: Publicando un modelo de deep learning en Heroku
+# Tarea 2: Iterando un producto de datos
 
 
 ## Url aplicación web
@@ -8,8 +8,7 @@ Ir a https://wear-a-f-mask.herokuapp.com/
 
 ## Limitaciones
 
-- La aplicación indicará si tu personaje es un dwarf o un dragonborn, no otra raza
-- El notebook clasificador_resnet_dnd.ipynb fue creado con editor Atom + Hydrogen y al exportar quedó en una forma no amigable para Jupyter o Jupyter Lab. Indicar si se requiere ser editado para mejorar corrección
+- La aplicación indicará si la foto de la prenda es un pantalon o polera, blanco o negro y de hombre o de mujer
 
 
 ## Créditos
