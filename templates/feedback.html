@@ -1,0 +1,42 @@
+{% extends "base.html" %} {% block content %}
+
+<div>
+  <h3>
+    ¿Qué tan probable es que recomiende el uso de este productos? <br>
+    Donde:<br>
+    <ul>
+      <li>1 es nada probable que recomiende su uso de este producto</li>
+      <li>10 es extremadamente probable que recomiende este producto</li>
+    </ul>
+  </h3>
+</div>
+
+<div>
+  <h2>
+    <input type="radio" id="1" name="1" value="1">
+    <label for="1">1</label><br>
+    <input type="radio" id="2" name="2" value="2">
+    <label for="2">2</label><br>
+    <input type="radio" id="3" name="3" value="3">
+    <label for="3">3</label><br>
+    <input type="radio" id="4" name="4" value="4">
+    <label for="4">4</label><br>
+    <input type="radio" id="5" name="5" value="5">
+    <label for="5">5</label><br>
+    <input type="radio" id="6" name="6" value="6">
+    <label for="6">6</label><br>
+    <input type="radio" id="7" name="7" value="7">
+    <label for="7">7</label><br>
+    <input type="radio" id="8" name="8" value="8">
+    <label for="8">8</label><br>
+    <input type="radio" id="9" name="9" value="9">
+    <label for="9">9</label><br>
+    <input type="radio" id="10" name="10" value="10">
+    <label for="10">10</label><br>
+  </h2>
+  <div>
+      <button type="button" class="btn btn-primary btn-lg ">Enviar feedback</button>
+  </div>
+</div>
+
+{% endblock %}

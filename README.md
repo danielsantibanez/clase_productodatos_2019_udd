@@ -8,7 +8,7 @@ Ir a https://wear-a-f-mask.herokuapp.com/
 
 ## Limitaciones
 
-- La aplicación indicará si la foto de la prenda es un pantalon o polera, blanco o negro y de hombre o de mujer
+- La aplicación indicará si la foto de la prenda es un pantalon o polera, blanco o negro y de hombre o de mujer y esa clasificación servirá para crear descripciones de prendas.
 
 
 ## Créditos

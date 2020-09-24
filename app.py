@@ -58,5 +58,11 @@ def upload():
     return None
 
 
+@app.route('/feedback', methods=['GET'])
+def feedback():
+    # Main page
+    return render_template('feedback.html')
+
+
 if __name__ == '__main__':
     app.run()
